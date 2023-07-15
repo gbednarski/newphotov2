@@ -80,3 +80,4 @@ while (!restoredImage) {
   }
 }
 res.status(200).json(restoredImage ? restoredImage : "Failed to restore image");
+  }
